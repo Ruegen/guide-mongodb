@@ -36,7 +36,7 @@ show collections
 
 # Database methods
 We will now use some of the simple methods that allow you to make changes to the database
-[mongodb db methods]:https://docs.mongodb.com/manual/reference/method/js-database/
+[mongodb db methods](https://docs.mongodb.com/manual/reference/method/js-database/)
 
 ### 6. Create a collection in the test database
 ```
