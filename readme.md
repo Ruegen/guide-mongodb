@@ -54,3 +54,11 @@ db.people.insert({firstname: 'YOURNAME', lastname: 'YOURLASTNAME'})
 ```
 db.foods.find()
 ```
+
+This returns the ObjectId for each record, replace ObjectId in the next step
+
+### 9. Find and delete record the same record in one function
+```
+db.foods.findOneAndDelete(ObjectId("5761fc4b639f77271a098f51"))
+```
+This will return the removed value in the console for a validation of what was removed.
