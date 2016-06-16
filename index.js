@@ -32,6 +32,5 @@ var mypost = {
 
 var post = new BlogPost(mypost);
 
-
 //save to BlogPost collection database
 post.save();

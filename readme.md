@@ -7,6 +7,8 @@
 * Windows
 * Linux
 
+[Guide to Install](https://docs.mongodb.com/manual/administration/install-community/)
+
 ### 1. Create place to hold database file
 NOTE: You may need to give permissions to the user for this folder once created.
 ```
