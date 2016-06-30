@@ -10,15 +10,18 @@
 [Guide to Install](https://docs.mongodb.com/manual/administration/install-community/)
 
 ### 1. Create place to hold database file
-NOTE: You may need to give permissions to the user for this folder once created.
+Create a folder in your User/Home directory.
+This way the folder permissions are to you the user and mongodb has read/write permissions. Without those permissions it can't create data.
 ```
 mkdir -p /data/db
 ```
 
-### 2. Run mongodb
+### 2. Run mongodb using the command mongod and the flag -dbpath
+e.g. (windows can be a different path)
 ```
-mongod
+mongod -dbpath ~/data/db/
 ```
+
 
 ### 3. view mongodb in mongodb shell
 ```
