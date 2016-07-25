@@ -1,3 +1,4 @@
+<p align="center"><img src="mongodb.png"></p>
 # Using MongoDb
 
 
@@ -19,7 +20,7 @@ mkdir -p /data/db
 ### 2. Run mongodb using the command mongod and the flag -dbpath
 e.g. (windows can be a different path)
 ```
-mongod -dbpath ~/data/db/
+mongod -p -dbpath ~/data/db/
 ```
 
 
