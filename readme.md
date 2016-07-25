@@ -14,7 +14,7 @@
 Create a folder in your User/Home directory.
 This way the folder permissions are to you the user and mongodb has read/write permissions. Without those permissions it can't create data.
 ```
-mkdir -p /data/db
+mkdir -p ~/data/db
 ```
 
 ### 2. Run mongodb using the command mongod and the flag -dbpath
